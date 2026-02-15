@@ -44,13 +44,18 @@ The final deciphered text was identified as a passage from the **Book of Daniel*
 ---
 
 ### Analyze Letter Frequencies:
+
+  - freqAnalyze.py:
+
     ```bash
     python3 freqAnalyze.py merchantofvenice.txt
     python3 freqAnalyze.py hamlet.txt
     python3 freqAnalyze.py ciphertext.txt
+  
+  - decipher.py:
 
+    ```bash
     python3 decipher.py ciphertext.txt
-
 ### 3. Contributors:
    - Sharan Ravula (Python)
    - Ivan Garcia (C++)
