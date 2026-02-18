@@ -63,6 +63,9 @@ The final deciphered text was identified as a passage from the **Book of Daniel*
 
     ```bash
     python3 decipher.py ciphertext.txt
+
+---
+
 ## 💥 Contributors:
    - Sharan Ravula (Python)
    - Ivan Garcia (C++)
