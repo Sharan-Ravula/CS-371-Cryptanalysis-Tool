@@ -14,26 +14,33 @@
 
 ---
 
-## Solution Design & Implementation:
+## 💥 Solution Design & Implementation:
 
-### 1. Frequency Analysis
+1. Frequency Analysis
+   
 The analysis process involved scanning reference texts to identify:
+
   - **Single Letters**: Identified 'e', 't', and 'a' as the most frequent characters.
+    
   - **Bi-grams**: Common sequences like 'th', 'he', and 'in' were used to identify word structures.
+    
   - **Tri-grams**: 'the' and 'and' were used as anchors to confirm high-probability mappings.
 
-### 2. Letter Mapping
+2. Letter Mapping
+   
 The mapping was established through an iterative process:
+
   - **Initial Mapping**: Based purely on frequency rankings (e.g., mapping the most frequent ciphertext letter 'x' to 'e').
+    
   - **Refinement**: Adjustments were made by identifying common linguistic patterns and resolving ambiguous characters through context.
 
-**Final Mapping discovered:**
+3. **Final Mapping discovered**:
 
   `x->e`, `t->h`, `j->t`, `m->o`, `p->n`, `c->a`, `r->n`, `b->s`, `n->i`, `v->r`, `g->d`, `w->u`, `y->l`.
   
 ---
 
-## Deciphered Plaintext
+## 💥 Deciphered Plaintext
 
 The final deciphered text was identified as a passage from the **Book of Daniel** in the Bible.
 
@@ -43,7 +50,7 @@ The final deciphered text was identified as a passage from the **Book of Daniel*
 
 ---
 
-### Analyze Letter Frequencies:
+## 💥 Analyze Letter Frequencies:
 
   - freqAnalyze.py:
 
@@ -56,7 +63,7 @@ The final deciphered text was identified as a passage from the **Book of Daniel*
 
     ```bash
     python3 decipher.py ciphertext.txt
-### 3. Contributors:
+## 💥 Contributors:
    - Sharan Ravula (Python)
    - Ivan Garcia (C++)
    - Tucker Baum (C++)
