@@ -63,16 +63,6 @@ In English, the most common word is "the." By matching the "Zog" (Ciphertext) to
 
 ---
 
-## 📐 Mathematical Approach
-
-The frequency analysis is performed by counting the occurrences $`C`$ of each n-gram and calculating its relative frequency $`F`$:
-
-$`F` `=` `\frac{C}{\sum C}`$
-
-By comparing the distribution of $`F`$ in the reference text versus the ciphertext, we can establish a one-on-one letter mapping (the codebook).
-
----
-
 ## 💥 Solution Design & Implementation:
 
 1. Frequency Analysis: The analysis process involved scanning reference texts to identify
