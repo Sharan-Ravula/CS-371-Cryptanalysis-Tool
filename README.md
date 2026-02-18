@@ -8,8 +8,6 @@
 - By analyzing the statistical properties of letter frequencies, bigrams, and trigrams in reference English texts—specifically Shakespeare's *Hamlet* and *The Merchant of Venice*
 - We developed an algorithm to map ciphertext characters back to their original plaintext.
 
----
-
 > The project features two distinct implementations: in **Python** and in **C++**
 
 ---
