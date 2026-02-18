@@ -1,8 +1,6 @@
 # Cryptanalysis Project: Frequency Analysis & Decryption
 
----
-
-## Project Overview:
+## 📌 Project Overview:
 
 - This project focuses on the **cryptanalysis of a monoalphabetic substitution cipher**. 
 - By analyzing the statistical properties of letter frequencies, bigrams, and trigrams in reference English texts—specifically Shakespeare's *Hamlet* and *The Merchant of Venice*
