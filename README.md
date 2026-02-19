@@ -14,9 +14,11 @@ The tool analyzes reference texts (Shakespearean plays) to build a frequency pro
 ```text
 Cryptanalysis-Project/
 │
-├── Cryptanalysis/
+├── scripts/
 │   ├── freqAnalyze.py       # Python tool for n-gram frequency analysis
 │   ├── decipher.py          # Script to apply mapping and recover plaintext
+
+├── datasets/
 │   ├── ciphertext.txt       # The encrypted target message
 │   ├── hamlet.txt           # Reference text 1 (Shakespeare)
 │   ├── merchantofvenice.txt # Reference text 2 (Shakespeare)
