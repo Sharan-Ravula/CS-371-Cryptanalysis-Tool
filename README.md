@@ -89,17 +89,33 @@ In English, the most common word is "the." By matching the "Zog" (Ciphertext) to
 
 ## 💥 Analyze Letter Frequencies:
 
-  - **freqAnalyze.py**:
+   - Mac/Linux:
+     
+     - **freqAnalyze.py**:
 
-    ```bash
-    python3 freqAnalyze.py merchantofvenice.txt
-    python3 freqAnalyze.py hamlet.txt
-    python3 freqAnalyze.py ciphertext.txt
+       ```bash
+       python3 freqAnalyze.py ../datasets/merchantofvenice.txt
+       python3 freqAnalyze.py ../datasets/hamlet.txt
+       python3 freqAnalyze.py ../datasets/ciphertext.txt
   
-  - **decipher.py**:
+     - **decipher.py**:
 
-    ```bash
-    python3 decipher.py ciphertext.txt
+       ```bash
+       python3 decipher.py ../datasets/ciphertext.txt
+
+   - Windows:
+
+     - **freqAnalyze.py**:
+
+       ```bash
+       python freqAnalyze.py ../datasets/merchantofvenice.txt
+       python freqAnalyze.py ../datasets/hamlet.txt
+       python freqAnalyze.py ../datasets/ciphertext.txt
+  
+     - **decipher.py**:
+
+       ```bash
+       python decipher.py ../datasets/ciphertext.txt
 
 ---
 
