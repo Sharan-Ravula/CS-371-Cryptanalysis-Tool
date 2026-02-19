@@ -41,17 +41,17 @@ The project uses Frequency Analysis, which relies on the fact that in any given 
 
 The Deciphering Process:
 
-   - Reference Profiling: Analyze hamlet.txt and merchantofvenice.txt to determine the "standard" frequency of 1-grams (letters), 2-grams (bi-grams), and 3-grams (tri-grams).
+   - Reference Profiling: Analyze `hamlet.txt` and `merchantofvenice.txt` to determine the "standard" frequency of 1-grams (`letters`), 2-grams (`bi-grams`), and 3-grams (`tri-grams`)
      
-   - Ciphertext Analysis: Run the same frequency analysis on the encrypted ciphertext.txt.
+   - Ciphertext Analysis: Run the same frequency analysis on the encrypted `ciphertext.txt`
      
    - Heuristic Mapping:
       
-      - Map the most frequent ciphertext letter (e.g., 'x') to the most frequent English letter ('e').
+      - Map the most frequent ciphertext letter (e.g., '`x`') to the most frequent English letter ('`e`').
         
-      - Use common tri-grams like "the" or "and" to anchor the mapping.
+      - Use common tri-grams like "`the`" or "`and`" to anchor the mapping.
         
-   - Iterative Refinement: Manually adjust the codebook based on linguistic patterns (e.g., if a word looks like t_at, the missing letter is likely h).
+   - Iterative Refinement: Manually adjust the codebook based on linguistic patterns (e.g., if a word looks like `t_at`, the missing letter is likely `h`)
 
 ---
 
@@ -59,9 +59,9 @@ The Deciphering Process:
 
 What is Cryptanalysis? 🤔
 
-Imagine you are in a room full of people speaking a secret code. You don't know the language, but you notice that every time someone points at a door, they say "Zog." You also notice "Zog" is the most common word said.
+Imagine you are in a room full of people speaking a secret code. You don't know the language, but you notice that every time someone points at a door, they say "Zog". You also notice "Zog" is the most common word said.
 
-In English, the most common word is "the." By matching the "Zog" (Ciphertext) to "the" (Plaintext), you have just unlocked three letters: T, H, and E. You repeat this "pattern matching" until the entire secret language becomes clear.
+In English, the most common word is "the". By matching the "Zog" (Ciphertext) to "the" (Plaintext), you have just unlocked three letters: T, H, and E. You repeat this "pattern matching" until the entire secret language becomes clear.
 
 ---
 
@@ -69,15 +69,15 @@ In English, the most common word is "the." By matching the "Zog" (Ciphertext) to
 
 1. Frequency Analysis: The analysis process involved scanning reference texts to identify
 
-  - Single Letters: Identified 'e', 't', and 'a' as the most frequent characters.
+  - Single Letters: Identified '`e`', '`t`', and '`a`' as the most frequent characters.
     
-  - Bi-grams: Common sequences like 'th', 'he', and 'in' were used to identify word structures.
+  - Bi-grams: Common sequences like '`th`', '`he`', and '`in`' were used to identify word structures.
     
-  - Tri-grams: 'the' and 'and' were used as anchors to confirm high-probability mappings.
+  - Tri-grams: '`the`' and '`and`' were used as anchors to confirm high-probability mappings.
 
 2. Letter Mapping: The mapping was established through an iterative process
 
-  - Initial Mapping: Based purely on frequency rankings (e.g., mapping the most frequent ciphertext letter 'x' to 'e').
+  - Initial Mapping: Based purely on frequency rankings (e.g., mapping the most frequent ciphertext letter '`x`' to '`e`').
     
   - Refinement: Adjustments were made by identifying common linguistic patterns and resolving ambiguous characters through context.
 
@@ -125,9 +125,9 @@ In English, the most common word is "the." By matching the "Zog" (Ciphertext) to
   
   > "in the same hour came forth fingers of a man's hand, and wrote oder against the candlestick upon the plaster of the wall of the king's palace; and the king saw the part of the hand that wrote..."
   
-- The "E" Factor: In the reference texts, 'e' was consistently the most common letter (10,786 occurrences in Merchant of Venice).
+- The "E" Factor: In the reference texts, '`e`' was consistently the most common letter (`10,786` occurrences in Merchant of Venice).
   
-- The "THE" Anchor: The tri-gram 'the' was the strongest indicator for mapping, appearing 1,420 times in the reference text.
+- The "THE" Anchor: The tri-gram '`the`' was the strongest indicator for mapping, appearing `1,420` times in the reference text.
 
 ---
 
