@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This repository contains a frequency-based cryptanalysis tool designed to decipher text encrypted with a monoalphabetic substitution cipher. Developed for CS 371: Introduction to Computer Networking at the University of Kentucky, the project demonstrates how statistical properties of language (n-grams) can be used to break simple encryption without a known key. 
+This repository contains a frequency-based cryptanalysis tool designed to decipher text encrypted with a monoalphabetic substitution cipher. Developed for `CS 371: Introduction to Computer Networking` at the `University of Kentucky`, the project demonstrates how statistical properties of language (`n-grams`) can be used to break simple encryption without a known key. 
 
 The tool analyzes reference texts (Shakespearean plays) to build a frequency profile of the English language and applies those patterns to recover plaintext from ciphertext.
 
