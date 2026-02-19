@@ -89,7 +89,7 @@ In English, the most common word is "the." By matching the "Zog" (Ciphertext) to
 
 ## 💥 Analyze Letter Frequencies:
 
-   - Mac/Linux:
+   - macOS/Linux:
      
      - **freqAnalyze.py**:
 
